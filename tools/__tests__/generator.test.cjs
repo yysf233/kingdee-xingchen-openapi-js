@@ -112,6 +112,8 @@ test("generator emits sdk/core/resources/index/scripts for 3 object keys", () =>
 
   assert.equal(hasFile(path.join(outDir, "sdk", "core", "url.cjs")), true);
   assert.equal(hasFile(path.join(outDir, "sdk", "core", "assert.cjs")), true);
+  assert.equal(hasFile(path.join(outDir, "sdk", "core", "headers.cjs")), true);
+  assert.equal(hasFile(path.join(outDir, "sdk", "core", "retry.cjs")), true);
   assert.equal(hasFile(path.join(outDir, "sdk", "index.cjs")), true);
   assert.equal(hasFile(path.join(outDir, "sdk", "resources", "customer.cjs")), true);
   assert.equal(hasFile(path.join(outDir, "sdk", "resources", "saleOrder.cjs")), true);
@@ -122,6 +124,8 @@ test("generator emits sdk/core/resources/index/scripts for 3 object keys", () =>
   assert.match(customerContent, /function createCustomerApi/);
   assert.match(customerContent, /api\.list = async function list/);
   assert.match(customerContent, /api\.save = async function save/);
+  assert.match(customerContent, /buildHeaders/);
+  assert.match(customerContent, /withRetry/);
 
   const indexContent = fs.readFileSync(path.join(outDir, "sdk", "index.cjs"), "utf8");
   assert.match(indexContent, /function createApi/);
