@@ -158,6 +158,32 @@ const kd = kdPkg?.default ?? kdPkg;
 
 ---
 
+## 目录标签与骨架生成（1.2/1.3）
+
+本 skill 内置两个 CLI，用于先标注端点再生成调用骨架：
+
+1. 语义标签（1.2）  
+   `node tools/tag_endpoints.cjs`  
+   可选参数：`--cwd <path>`（从指定目录向上优先发现 `api.manifest.jsonl` + `docs/`），`--debug`（打印首条 manifest keys）。
+
+2. 调用骨架生成（1.3）  
+   `node tools/gen_sdk.cjs`  
+   默认读取 `references/openapi/_derived/endpoints.tagged.json` 并生成 `generated/` 目录。
+
+产物路径约定：
+
+- 标签与统计：`references/openapi/_derived/`
+- 代码骨架：`generated/`
+
+硬约束保持不变：
+
+- 端点选型必须 manifest → docs；
+- `kingdee-sdk` 调用 url 必须完整 URL；
+- `DOMAIN` 用于路由，不等于 OpenAPI host；
+- 写入/状态动作必须“写后读验证”通过才算成功。
+
+---
+
 ## 本 skill 自带参考资料与资产位置
 
 - OpenAPI 索引：`references/openapi/api.manifest.jsonl`

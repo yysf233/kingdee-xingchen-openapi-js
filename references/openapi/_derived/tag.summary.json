@@ -1,0 +1,3581 @@
+{
+  "generatedAt": "2026-02-26T07:15:50.195Z",
+  "source": {
+    "manifestPath": "C:\\Users\\20493\\.agents\\skills\\kingdee-xingchen-openapi-js\\references\\openapi\\api.manifest.jsonl",
+    "docsDir": "C:\\Users\\20493\\.agents\\skills\\kingdee-xingchen-openapi-js\\references\\openapi\\docs",
+    "source": "skill"
+  },
+  "counts": {
+    "endpoints": 382,
+    "objects": 119,
+    "modules": 121
+  },
+  "coverage": {
+    "opCoverage": [
+      "other",
+      "read:detail",
+      "read:list",
+      "workflow:cancel",
+      "workflow:unaudit",
+      "write:delete",
+      "write:upsert"
+    ],
+    "syncCoverage": [
+      "sync:full-ok",
+      "sync:incremental-ok",
+      "sync:needs-polling",
+      "sync:workflow-ok",
+      "sync:write-ok"
+    ]
+  },
+  "missingObjectMap": [
+    {
+      "group": "指导文档",
+      "suggestedObjectKey": "object836dea"
+    },
+    {
+      "group": "采购发票",
+      "suggestedObjectKey": "objectDc74f7"
+    },
+    {
+      "group": "收料通知单",
+      "suggestedObjectKey": "objectBd25f4"
+    },
+    {
+      "group": "采购申请单",
+      "suggestedObjectKey": "object00c66c"
+    },
+    {
+      "group": "采购入库",
+      "suggestedObjectKey": "object8e1791"
+    },
+    {
+      "group": "采购",
+      "suggestedObjectKey": "objectB52d6a"
+    },
+    {
+      "group": "销售申请",
+      "suggestedObjectKey": "object640a66"
+    },
+    {
+      "group": "销售换货申请单",
+      "suggestedObjectKey": "object2c4dc9"
+    },
+    {
+      "group": "发货通知单",
+      "suggestedObjectKey": "objectFaa066"
+    },
+    {
+      "group": "销售表",
+      "suggestedObjectKey": "objectC654bf"
+    },
+    {
+      "group": "销售报价单",
+      "suggestedObjectKey": "objectE78852"
+    },
+    {
+      "group": "销售发票",
+      "suggestedObjectKey": "object7f6512"
+    },
+    {
+      "group": "委托代销结算单",
+      "suggestedObjectKey": "objectAf5fa9"
+    },
+    {
+      "group": "委托代销单",
+      "suggestedObjectKey": "object54b08c"
+    },
+    {
+      "group": "销售出库",
+      "suggestedObjectKey": "objectD1da44"
+    },
+    {
+      "group": "销售",
+      "suggestedObjectKey": "objectA5fd0e"
+    },
+    {
+      "group": "拣验货单",
+      "suggestedObjectKey": "objectDd6914"
+    },
+    {
+      "group": "分量盘点单",
+      "suggestedObjectKey": "object55cd45"
+    },
+    {
+      "group": "其它出库",
+      "suggestedObjectKey": "objectCf1e54"
+    },
+    {
+      "group": "其它入库",
+      "suggestedObjectKey": "object147acb"
+    },
+    {
+      "group": "调拨出库",
+      "suggestedObjectKey": "objectF4dbff"
+    },
+    {
+      "group": "调拨入库",
+      "suggestedObjectKey": "objectC1293c"
+    },
+    {
+      "group": "移仓单",
+      "suggestedObjectKey": "object131208"
+    },
+    {
+      "group": "盘点单",
+      "suggestedObjectKey": "object226986"
+    },
+    {
+      "group": "盘盈单",
+      "suggestedObjectKey": "object303b08"
+    },
+    {
+      "group": "盘亏单",
+      "suggestedObjectKey": "object4b6647"
+    },
+    {
+      "group": "组装单",
+      "suggestedObjectKey": "object0779bd"
+    },
+    {
+      "group": "拆卸单",
+      "suggestedObjectKey": "objectE2449a"
+    },
+    {
+      "group": "组装拆卸模板",
+      "suggestedObjectKey": "object3c6131"
+    },
+    {
+      "group": "生产领料",
+      "suggestedObjectKey": "object54af50"
+    },
+    {
+      "group": "生产退料",
+      "suggestedObjectKey": "objectEa898a"
+    },
+    {
+      "group": "产品入库",
+      "suggestedObjectKey": "object14f417"
+    },
+    {
+      "group": "产品退库",
+      "suggestedObjectKey": "object49964a"
+    },
+    {
+      "group": "仓存报表",
+      "suggestedObjectKey": "objectB4e6a4"
+    },
+    {
+      "group": "收款单",
+      "suggestedObjectKey": "objectC4bb11"
+    },
+    {
+      "group": "收款退款单",
+      "suggestedObjectKey": "objectD60b1e"
+    },
+    {
+      "group": "其他收入单",
+      "suggestedObjectKey": "objectCbb7a9"
+    },
+    {
+      "group": "其他收入退款单",
+      "suggestedObjectKey": "object5b7c2f"
+    },
+    {
+      "group": "预收款单",
+      "suggestedObjectKey": "object5e8eab"
+    },
+    {
+      "group": "预收退款单",
+      "suggestedObjectKey": "objectFc4899"
+    },
+    {
+      "group": "付款单",
+      "suggestedObjectKey": "object3e0eba"
+    },
+    {
+      "group": "其他支出单",
+      "suggestedObjectKey": "object9e390e"
+    },
+    {
+      "group": "付款退款单",
+      "suggestedObjectKey": "object710405"
+    },
+    {
+      "group": "预付款单",
+      "suggestedObjectKey": "objectEb4ae5"
+    },
+    {
+      "group": "预付退款单",
+      "suggestedObjectKey": "objectF84752"
+    },
+    {
+      "group": "往来报表",
+      "suggestedObjectKey": "objectA83b45"
+    },
+    {
+      "group": "自定义接口",
+      "suggestedObjectKey": "object9d9ec9"
+    },
+    {
+      "group": "工资单",
+      "suggestedObjectKey": "object895170"
+    },
+    {
+      "group": "工资项目",
+      "suggestedObjectKey": "object7cf6a9"
+    },
+    {
+      "group": "资产变动",
+      "suggestedObjectKey": "object2680ca"
+    },
+    {
+      "group": "变动方式",
+      "suggestedObjectKey": "object23f22c"
+    },
+    {
+      "group": "资产类别",
+      "suggestedObjectKey": "object916e76"
+    },
+    {
+      "group": "存放地点",
+      "suggestedObjectKey": "object011045"
+    },
+    {
+      "group": "变动方式分类",
+      "suggestedObjectKey": "object391501"
+    },
+    {
+      "group": "使用状态",
+      "suggestedObjectKey": "object3a5cac"
+    },
+    {
+      "group": "资产",
+      "suggestedObjectKey": "object713fd9"
+    },
+    {
+      "group": "资产清理",
+      "suggestedObjectKey": "objectF3dc9d"
+    },
+    {
+      "group": "报销管理",
+      "suggestedObjectKey": "objectD5bb23"
+    },
+    {
+      "group": "出纳",
+      "suggestedObjectKey": "object547c9e"
+    },
+    {
+      "group": "日记账",
+      "suggestedObjectKey": "object39bd50"
+    },
+    {
+      "group": "账簿",
+      "suggestedObjectKey": "objectC6e965"
+    },
+    {
+      "group": "报表",
+      "suggestedObjectKey": "objectCa53e6"
+    },
+    {
+      "group": "凭证",
+      "suggestedObjectKey": "objectCad9a7"
+    },
+    {
+      "group": "凭证附件",
+      "suggestedObjectKey": "object7720bc"
+    },
+    {
+      "group": "外部单据",
+      "suggestedObjectKey": "objectEcecb8"
+    },
+    {
+      "group": "外部单据分类",
+      "suggestedObjectKey": "objectFe315e"
+    },
+    {
+      "group": "税收分类编码",
+      "suggestedObjectKey": "object21fa54"
+    },
+    {
+      "group": "税收分类编码类别",
+      "suggestedObjectKey": "objectB09058"
+    },
+    {
+      "group": "开票管理",
+      "suggestedObjectKey": "objectD2c5c8"
+    },
+    {
+      "group": "配方管理",
+      "suggestedObjectKey": "object4b435b"
+    },
+    {
+      "group": "积分储值",
+      "suggestedObjectKey": "objectF09974"
+    },
+    {
+      "group": "门店管理",
+      "suggestedObjectKey": "objectA7fb26"
+    },
+    {
+      "group": "零售结存单",
+      "suggestedObjectKey": "object7fcfaa"
+    },
+    {
+      "group": "零售单",
+      "suggestedObjectKey": "object670a26"
+    },
+    {
+      "group": "会员资料",
+      "suggestedObjectKey": "objectC1ec6c"
+    },
+    {
+      "group": "生产任务单",
+      "suggestedObjectKey": "object919a38"
+    },
+    {
+      "group": "委外加工单",
+      "suggestedObjectKey": "object27af62"
+    },
+    {
+      "group": "委外发料单",
+      "suggestedObjectKey": "object6bd4ca"
+    },
+    {
+      "group": "委外退料单",
+      "suggestedObjectKey": "object3bdff6"
+    },
+    {
+      "group": "委外产品入库单",
+      "suggestedObjectKey": "object46f463"
+    },
+    {
+      "group": "委外产品单",
+      "suggestedObjectKey": "objectDb2d5a"
+    },
+    {
+      "group": "商品品牌分类",
+      "suggestedObjectKey": "object53154e"
+    },
+    {
+      "group": "标签中心",
+      "suggestedObjectKey": "object17da3c"
+    },
+    {
+      "group": "辅助属性",
+      "suggestedObjectKey": "object846d51"
+    },
+    {
+      "group": "辅助属性分类",
+      "suggestedObjectKey": "object2c8481"
+    },
+    {
+      "group": "商品标签",
+      "suggestedObjectKey": "object71ca4e"
+    },
+    {
+      "group": "商品标签分类",
+      "suggestedObjectKey": "object5afaa4"
+    },
+    {
+      "group": "商品信息",
+      "suggestedObjectKey": "object751c58"
+    },
+    {
+      "group": "商品品牌",
+      "suggestedObjectKey": "object69291c"
+    },
+    {
+      "group": "商品分类",
+      "suggestedObjectKey": "object09482d"
+    },
+    {
+      "group": "计量单位",
+      "suggestedObjectKey": "objectB310a9"
+    },
+    {
+      "group": "价格资料",
+      "suggestedObjectKey": "object0e6bac"
+    },
+    {
+      "group": "收入类别分类",
+      "suggestedObjectKey": "object867099"
+    },
+    {
+      "group": "支出类别分类",
+      "suggestedObjectKey": "object0e79b8"
+    },
+    {
+      "group": "辅助资料",
+      "suggestedObjectKey": "object189ff9"
+    },
+    {
+      "group": "辅助资料分类",
+      "suggestedObjectKey": "object3e023d"
+    },
+    {
+      "group": "客户分类",
+      "suggestedObjectKey": "object7068c5"
+    },
+    {
+      "group": "部门",
+      "suggestedObjectKey": "object91061a"
+    },
+    {
+      "group": "职员",
+      "suggestedObjectKey": "objectA18544"
+    },
+    {
+      "group": "物流公司",
+      "suggestedObjectKey": "object788dbb"
+    },
+    {
+      "group": "收入类别",
+      "suggestedObjectKey": "object807b71"
+    },
+    {
+      "group": "支出类别",
+      "suggestedObjectKey": "objectD31ffd"
+    },
+    {
+      "group": "结算周期",
+      "suggestedObjectKey": "object8cc2d3"
+    },
+    {
+      "group": "仓位",
+      "suggestedObjectKey": "object25a424"
+    },
+    {
+      "group": "仓库分类",
+      "suggestedObjectKey": "object4e7fc8"
+    },
+    {
+      "group": "供应商分类",
+      "suggestedObjectKey": "objectA9bc8b"
+    },
+    {
+      "group": "BOM单",
+      "suggestedObjectKey": "bom4c2eaf"
+    },
+    {
+      "group": "币别",
+      "suggestedObjectKey": "object5ac2ea"
+    },
+    {
+      "group": "账户管理",
+      "suggestedObjectKey": "object9823d8"
+    },
+    {
+      "group": "结算方式",
+      "suggestedObjectKey": "object024777"
+    },
+    {
+      "group": "科目",
+      "suggestedObjectKey": "object88c729"
+    },
+    {
+      "group": "科目类别",
+      "suggestedObjectKey": "objectFbee08"
+    },
+    {
+      "group": "财务资料",
+      "suggestedObjectKey": "object75b329"
+    },
+    {
+      "group": "系统设置",
+      "suggestedObjectKey": "objectE976ea"
+    }
+  ],
+  "modules": [
+    {
+      "module": "财税云 / 报表",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 出纳",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 出纳 / 日记账",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 费用报销 / 报销管理",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:detail"
+      ]
+    },
+    {
+      "module": "财税云 / 工资 / 工资单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 工资 / 工资项目",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 凭证",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 凭证 / 凭证附件",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 凭证 / 外部单据",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 凭证 / 外部单据分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 税务管理 / 开票管理",
+      "objectCount": 1,
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 税务管理 / 税收分类编码",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 税务管理 / 税收分类编码类别",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 账簿",
+      "objectCount": 1,
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产变动",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产清理",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产新增",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产资料 / 变动方式",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产资料 / 变动方式分类",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产资料 / 存放地点",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产资料 / 使用状态",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "财税云 / 资产 / 资产资料 / 资产类别",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料 / 币别",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料 / 结算方式",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料 / 科目",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料 / 科目类别",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "基础资料 / 财务资料 / 账户管理",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 标签中心",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 辅助属性",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 辅助属性分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 计量单位",
+      "objectCount": 1,
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 价格资料",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品标签",
+      "objectCount": 1,
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品标签分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品分类",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品品牌",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品品牌分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 商品资料 / 商品信息",
+      "objectCount": 1,
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:delete",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 部门",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 仓库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 仓库分类",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 仓位",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 辅助资料",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 辅助资料分类",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 供应商",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 供应商分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 结算周期",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 客户",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 客户分类",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 收入类别",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 收入类别分类",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 物流公司",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 支出类别",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 支出类别分类",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "基础资料 / 业务资料 / 职员",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "基础资料 / BOM单",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 采购订单",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "workflow:cancel",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 采购发票",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 采购入库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 采购申请单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 采购退货",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 采购单据 / 收料通知单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存报表",
+      "objectCount": 1,
+      "endpointCount": 10,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 拆卸单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 产品入库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 产品退库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 调拨出库",
+      "objectCount": 1,
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 调拨入库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 分量盘点单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 拣验货单",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 盘点单",
+      "objectCount": 1,
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 盘亏单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 盘盈单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 其它出库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 其它入库",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 生产领料",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 生产退料",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 移仓单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 组装拆卸模板",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ]
+    },
+    {
+      "module": "进销存云 / 仓存单据 / 组装单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 往来报表",
+      "objectCount": 1,
+      "endpointCount": 9,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 发货通知单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 委托代销单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 委托代销结算单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 委托代销结算退货单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 委托代销退货单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售报价单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售出库",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售订单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售发票",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售换货申请单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售汇总表",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售退货",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 销售单据 / 销售退货申请",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应付单据 / 付款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应付单据 / 付款退款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应付单据 / 其他支出单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应付单据 / 预付款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应付单据 / 预付退款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 其他收入单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 其他收入退款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 收款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 收款退款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 预收款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "进销存云 / 应收单据 / 预收退款单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "零售云 / 会员资料",
+      "objectCount": 1,
+      "endpointCount": 10,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "零售云 / 积分储值",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "零售云 / 零售资料 / 配方管理",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "零售云 / 门店管理",
+      "objectCount": 1,
+      "endpointCount": 8,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "零售云 / 门店管理 / 零售单",
+      "objectCount": 1,
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "零售云 / 门店管理 / 零售结存单",
+      "objectCount": 1,
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ]
+    },
+    {
+      "module": "生产云 / 生产管理 / 生产任务单",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "生产云 / 委外管理 / 委外产品入库单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "生产云 / 委外管理 / 委外产品退货单",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ]
+    },
+    {
+      "module": "生产云 / 委外管理 / 委外发料单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "生产云 / 委外管理 / 委外加工单",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "生产云 / 委外管理 / 委外退料单",
+      "objectCount": 1,
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ]
+    },
+    {
+      "module": "系统设置",
+      "objectCount": 1,
+      "endpointCount": 16,
+      "opCoverage": [
+        "other",
+        "read:list",
+        "workflow:unaudit",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "指导文档",
+      "objectCount": 1,
+      "endpointCount": 3,
+      "opCoverage": [
+        "other",
+        "write:upsert"
+      ]
+    },
+    {
+      "module": "自定义云 / 自定义 / 自定义接口",
+      "objectCount": 1,
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "objectKey": "bom4c2eaf",
+      "group": "BOM单",
+      "module": "基础资料 / BOM单",
+      "entityType": "other",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "customer",
+      "group": "客户",
+      "module": "基础资料 / 业务资料 / 客户",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object00c66c",
+      "group": "采购申请单",
+      "module": "进销存云 / 采购单据 / 采购申请单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object011045",
+      "group": "存放地点",
+      "module": "财税云 / 资产 / 资产资料 / 存放地点",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object024777",
+      "group": "结算方式",
+      "module": "基础资料 / 财务资料 / 结算方式",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object0779bd",
+      "group": "组装单",
+      "module": "进销存云 / 仓存单据 / 组装单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object09482d",
+      "group": "商品分类",
+      "module": "基础资料 / 商品资料 / 商品分类",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object0e6bac",
+      "group": "价格资料",
+      "module": "基础资料 / 商品资料 / 价格资料",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "object0e79b8",
+      "group": "支出类别分类",
+      "module": "基础资料 / 业务资料 / 支出类别分类",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "object131208",
+      "group": "移仓单",
+      "module": "进销存云 / 仓存单据 / 移仓单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object147acb",
+      "group": "其它入库",
+      "module": "进销存云 / 仓存单据 / 其它入库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object14f417",
+      "group": "产品入库",
+      "module": "进销存云 / 仓存单据 / 产品入库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object17da3c",
+      "group": "标签中心",
+      "module": "基础资料 / 商品资料 / 标签中心",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object189ff9",
+      "group": "辅助资料",
+      "module": "基础资料 / 业务资料 / 辅助资料",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object21fa54",
+      "group": "税收分类编码",
+      "module": "财税云 / 税务管理 / 税收分类编码",
+      "entityType": "other",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok"
+      ]
+    },
+    {
+      "objectKey": "object226986",
+      "group": "盘点单",
+      "module": "进销存云 / 仓存单据 / 盘点单",
+      "entityType": "document",
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object23f22c",
+      "group": "变动方式",
+      "module": "财税云 / 资产 / 资产资料 / 变动方式",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object25a424",
+      "group": "仓位",
+      "module": "基础资料 / 业务资料 / 仓位",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object2680ca",
+      "group": "资产变动",
+      "module": "财税云 / 资产 / 资产变动",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object27af62",
+      "group": "委外加工单",
+      "module": "生产云 / 委外管理 / 委外加工单",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object2c4dc9",
+      "group": "销售换货申请单",
+      "module": "进销存云 / 销售单据 / 销售换货申请单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object2c8481",
+      "group": "辅助属性分类",
+      "module": "基础资料 / 商品资料 / 辅助属性分类",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object303b08",
+      "group": "盘盈单",
+      "module": "进销存云 / 仓存单据 / 盘盈单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object391501",
+      "group": "变动方式分类",
+      "module": "财税云 / 资产 / 资产资料 / 变动方式分类",
+      "entityType": "other",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok"
+      ]
+    },
+    {
+      "objectKey": "object39bd50",
+      "group": "日记账",
+      "module": "财税云 / 出纳 / 日记账",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object3a5cac",
+      "group": "使用状态",
+      "module": "财税云 / 资产 / 资产资料 / 使用状态",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object3bdff6",
+      "group": "委外退料单",
+      "module": "生产云 / 委外管理 / 委外退料单",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "object3c6131",
+      "group": "组装拆卸模板",
+      "module": "进销存云 / 仓存单据 / 组装拆卸模板",
+      "entityType": "document",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "object3e023d",
+      "group": "辅助资料分类",
+      "module": "基础资料 / 业务资料 / 辅助资料分类",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object3e0eba",
+      "group": "付款单",
+      "module": "进销存云 / 应付单据 / 付款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object46f463",
+      "group": "委外产品入库单",
+      "module": "生产云 / 委外管理 / 委外产品入库单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object49964a",
+      "group": "产品退库",
+      "module": "进销存云 / 仓存单据 / 产品退库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object4b435b",
+      "group": "配方管理",
+      "module": "零售云 / 零售资料 / 配方管理",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object4b6647",
+      "group": "盘亏单",
+      "module": "进销存云 / 仓存单据 / 盘亏单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object4e7fc8",
+      "group": "仓库分类",
+      "module": "基础资料 / 业务资料 / 仓库分类",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object53154e",
+      "group": "商品品牌分类",
+      "module": "基础资料 / 商品资料 / 商品品牌分类",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object547c9e",
+      "group": "出纳",
+      "module": "财税云 / 出纳",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": []
+    },
+    {
+      "objectKey": "object54af50",
+      "group": "生产领料",
+      "module": "进销存云 / 仓存单据 / 生产领料",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object54b08c",
+      "group": "委托代销单",
+      "module": "进销存云 / 销售单据 / 委托代销单",
+      "entityType": "document",
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object55cd45",
+      "group": "分量盘点单",
+      "module": "进销存云 / 仓存单据 / 分量盘点单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object5ac2ea",
+      "group": "币别",
+      "module": "基础资料 / 财务资料 / 币别",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object5afaa4",
+      "group": "商品标签分类",
+      "module": "基础资料 / 商品资料 / 商品标签分类",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object5b7c2f",
+      "group": "其他收入退款单",
+      "module": "进销存云 / 应收单据 / 其他收入退款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object5e8eab",
+      "group": "预收款单",
+      "module": "进销存云 / 应收单据 / 预收款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object640a66",
+      "group": "销售申请",
+      "module": "进销存云 / 销售单据 / 销售退货申请",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object670a26",
+      "group": "零售单",
+      "module": "零售云 / 门店管理 / 零售单",
+      "entityType": "masterdata",
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object69291c",
+      "group": "商品品牌",
+      "module": "基础资料 / 商品资料 / 商品品牌",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object6bd4ca",
+      "group": "委外发料单",
+      "module": "生产云 / 委外管理 / 委外发料单",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object7068c5",
+      "group": "客户分类",
+      "module": "基础资料 / 业务资料 / 客户分类",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object710405",
+      "group": "付款退款单",
+      "module": "进销存云 / 应付单据 / 付款退款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object713fd9",
+      "group": "资产",
+      "module": "财税云 / 资产 / 资产新增",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object71ca4e",
+      "group": "商品标签",
+      "module": "基础资料 / 商品资料 / 商品标签",
+      "entityType": "masterdata",
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object751c58",
+      "group": "商品信息",
+      "module": "基础资料 / 商品资料 / 商品信息",
+      "entityType": "masterdata",
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:delete",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object75b329",
+      "group": "财务资料",
+      "module": "基础资料 / 财务资料",
+      "entityType": "document",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "object7720bc",
+      "group": "凭证附件",
+      "module": "财税云 / 凭证 / 凭证附件",
+      "entityType": "document",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object788dbb",
+      "group": "物流公司",
+      "module": "基础资料 / 业务资料 / 物流公司",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object7cf6a9",
+      "group": "工资项目",
+      "module": "财税云 / 工资 / 工资项目",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object7f6512",
+      "group": "销售发票",
+      "module": "进销存云 / 销售单据 / 销售发票",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object7fcfaa",
+      "group": "零售结存单",
+      "module": "零售云 / 门店管理 / 零售结存单",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "object807b71",
+      "group": "收入类别",
+      "module": "基础资料 / 业务资料 / 收入类别",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object836dea",
+      "group": "指导文档",
+      "module": "指导文档",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "other",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object846d51",
+      "group": "辅助属性",
+      "module": "基础资料 / 商品资料 / 辅助属性",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object867099",
+      "group": "收入类别分类",
+      "module": "基础资料 / 业务资料 / 收入类别分类",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "object88c729",
+      "group": "科目",
+      "module": "基础资料 / 财务资料 / 科目",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object895170",
+      "group": "工资单",
+      "module": "财税云 / 工资 / 工资单",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object8cc2d3",
+      "group": "结算周期",
+      "module": "基础资料 / 业务资料 / 结算周期",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object8e1791",
+      "group": "采购入库",
+      "module": "进销存云 / 采购单据 / 采购入库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object91061a",
+      "group": "部门",
+      "module": "基础资料 / 业务资料 / 部门",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object916e76",
+      "group": "资产类别",
+      "module": "财税云 / 资产 / 资产资料 / 资产类别",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object919a38",
+      "group": "生产任务单",
+      "module": "生产云 / 生产管理 / 生产任务单",
+      "entityType": "other",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object9823d8",
+      "group": "账户管理",
+      "module": "基础资料 / 财务资料 / 账户管理",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object9d9ec9",
+      "group": "自定义接口",
+      "module": "自定义云 / 自定义 / 自定义接口",
+      "entityType": "other",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "object9e390e",
+      "group": "其他支出单",
+      "module": "进销存云 / 应付单据 / 其他支出单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectA18544",
+      "group": "职员",
+      "module": "基础资料 / 业务资料 / 职员",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectA5fd0e",
+      "group": "销售",
+      "module": "进销存云 / 销售单据 / 销售退货",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectA7fb26",
+      "group": "门店管理",
+      "module": "零售云 / 门店管理",
+      "entityType": "masterdata",
+      "endpointCount": 8,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectA83b45",
+      "group": "往来报表",
+      "module": "进销存云 / 往来报表",
+      "entityType": "masterdata",
+      "endpointCount": 9,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectA9bc8b",
+      "group": "供应商分类",
+      "module": "基础资料 / 业务资料 / 供应商分类",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectAf5fa9",
+      "group": "委托代销结算单",
+      "module": "进销存云 / 销售单据 / 委托代销结算单",
+      "entityType": "other",
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectB09058",
+      "group": "税收分类编码类别",
+      "module": "财税云 / 税务管理 / 税收分类编码类别",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "objectB310a9",
+      "group": "计量单位",
+      "module": "基础资料 / 商品资料 / 计量单位",
+      "entityType": "masterdata",
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectB4e6a4",
+      "group": "仓存报表",
+      "module": "进销存云 / 仓存报表",
+      "entityType": "other",
+      "endpointCount": 10,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectB52d6a",
+      "group": "采购",
+      "module": "进销存云 / 采购单据 / 采购退货",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectBd25f4",
+      "group": "收料通知单",
+      "module": "进销存云 / 采购单据 / 收料通知单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectC1293c",
+      "group": "调拨入库",
+      "module": "进销存云 / 仓存单据 / 调拨入库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectC1ec6c",
+      "group": "会员资料",
+      "module": "零售云 / 会员资料",
+      "entityType": "other",
+      "endpointCount": 10,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectC4bb11",
+      "group": "收款单",
+      "module": "进销存云 / 应收单据 / 收款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectC654bf",
+      "group": "销售表",
+      "module": "进销存云 / 销售单据 / 销售汇总表",
+      "entityType": "document",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "objectC6e965",
+      "group": "账簿",
+      "module": "财税云 / 账簿",
+      "entityType": "masterdata",
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectCa53e6",
+      "group": "报表",
+      "module": "财税云 / 报表",
+      "entityType": "other",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectCad9a7",
+      "group": "凭证",
+      "module": "财税云 / 凭证",
+      "entityType": "document",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectCbb7a9",
+      "group": "其他收入单",
+      "module": "进销存云 / 应收单据 / 其他收入单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectCf1e54",
+      "group": "其它出库",
+      "module": "进销存云 / 仓存单据 / 其它出库",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectD1da44",
+      "group": "销售出库",
+      "module": "进销存云 / 销售单据 / 销售出库",
+      "entityType": "document",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectD2c5c8",
+      "group": "开票管理",
+      "module": "财税云 / 税务管理 / 开票管理",
+      "entityType": "document",
+      "endpointCount": 6,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectD31ffd",
+      "group": "支出类别",
+      "module": "基础资料 / 业务资料 / 支出类别",
+      "entityType": "masterdata",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectD5bb23",
+      "group": "报销管理",
+      "module": "财税云 / 费用报销 / 报销管理",
+      "entityType": "document",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:detail"
+      ],
+      "syncCoverage": [
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectD60b1e",
+      "group": "收款退款单",
+      "module": "进销存云 / 应收单据 / 收款退款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectDb2d5a",
+      "group": "委外产品单",
+      "module": "生产云 / 委外管理 / 委外产品退货单",
+      "entityType": "document",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:detail",
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectDc74f7",
+      "group": "采购发票",
+      "module": "进销存云 / 采购单据 / 采购发票",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectDd6914",
+      "group": "拣验货单",
+      "module": "进销存云 / 仓存单据 / 拣验货单",
+      "entityType": "document",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectE2449a",
+      "group": "拆卸单",
+      "module": "进销存云 / 仓存单据 / 拆卸单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectE78852",
+      "group": "销售报价单",
+      "module": "进销存云 / 销售单据 / 销售报价单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectE976ea",
+      "group": "系统设置",
+      "module": "系统设置",
+      "entityType": "other",
+      "endpointCount": 16,
+      "opCoverage": [
+        "other",
+        "read:list",
+        "workflow:unaudit",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:workflow-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectEa898a",
+      "group": "生产退料",
+      "module": "进销存云 / 仓存单据 / 生产退料",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectEb4ae5",
+      "group": "预付款单",
+      "module": "进销存云 / 应付单据 / 预付款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectEcecb8",
+      "group": "外部单据",
+      "module": "财税云 / 凭证 / 外部单据",
+      "entityType": "document",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectF09974",
+      "group": "积分储值",
+      "module": "零售云 / 积分储值",
+      "entityType": "other",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok"
+      ]
+    },
+    {
+      "objectKey": "objectF3dc9d",
+      "group": "资产清理",
+      "module": "财税云 / 资产 / 资产清理",
+      "entityType": "other",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectF4dbff",
+      "group": "调拨出库",
+      "module": "进销存云 / 仓存单据 / 调拨出库",
+      "entityType": "document",
+      "endpointCount": 5,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectF84752",
+      "group": "预付退款单",
+      "module": "进销存云 / 应付单据 / 预付退款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectFaa066",
+      "group": "发货通知单",
+      "module": "进销存云 / 销售单据 / 发货通知单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectFbee08",
+      "group": "科目类别",
+      "module": "基础资料 / 财务资料 / 科目类别",
+      "entityType": "masterdata",
+      "endpointCount": 1,
+      "opCoverage": [
+        "read:list"
+      ],
+      "syncCoverage": [
+        "sync:needs-polling"
+      ]
+    },
+    {
+      "objectKey": "objectFc4899",
+      "group": "预收退款单",
+      "module": "进销存云 / 应收单据 / 预收退款单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "objectFe315e",
+      "group": "外部单据分类",
+      "module": "财税云 / 凭证 / 外部单据分类",
+      "entityType": "document",
+      "endpointCount": 2,
+      "opCoverage": [
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:needs-polling",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "purchaseOrder",
+      "group": "采购订单",
+      "module": "进销存云 / 采购单据 / 采购订单",
+      "entityType": "document",
+      "endpointCount": 4,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "workflow:cancel",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:workflow-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "saleOrder",
+      "group": "销售订单",
+      "module": "进销存云 / 销售单据 / 销售订单",
+      "entityType": "document",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "supplier",
+      "group": "供应商",
+      "module": "基础资料 / 业务资料 / 供应商",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    },
+    {
+      "objectKey": "warehouse",
+      "group": "仓库",
+      "module": "基础资料 / 业务资料 / 仓库",
+      "entityType": "masterdata",
+      "endpointCount": 3,
+      "opCoverage": [
+        "read:detail",
+        "read:list",
+        "write:upsert"
+      ],
+      "syncCoverage": [
+        "sync:full-ok",
+        "sync:incremental-ok",
+        "sync:write-ok"
+      ]
+    }
+  ]
+}
