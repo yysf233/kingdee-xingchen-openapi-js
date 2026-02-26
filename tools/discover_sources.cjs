@@ -61,7 +61,9 @@ function discoverOpenApiSources(cwd) {
     };
   }
 
-  throw new Error("OpenAPI sources not found. Expected api.manifest.jsonl in project ancestors or references/openapi.");
+  throw new Error(
+    "OpenAPI sources not found.\nExpected api.manifest.jsonl in project ancestors or references/openapi."
+  );
 }
 
 module.exports = {
